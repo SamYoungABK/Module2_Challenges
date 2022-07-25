@@ -3,6 +3,8 @@
 void GetValues(int&, int&);
 void OutputValues(int, int, int*, int*);
 
+using std::cin;
+
 int main()
 {
 	int a, b = 0;
@@ -16,9 +18,9 @@ int main()
 void GetValues(int& a, int& b)
 {
 	printf("Enter value for a:\n> ");
-	std::cin >> a;
+	cin >> a;
 	printf("Enter value for b:\n> ");
-	std::cin >> b;
+	cin >> b;
 	return;
 }
 
